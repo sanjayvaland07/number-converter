@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Number Converter System</h1>
+        <p>Enter the number</p>
+        <input type="text" name="number1" id="num1" placeholder="Enter the value">
+        <p>Result number</p>
+        <input type="text" name="" id="num2" placeholder="Result value" readonly>
+        <p>Select to convert</p>
+        <select class="text-gray" id="select">
+            <option value="null">Select Number Convertion</option>
+            <option value="Binary To Decimal">Binary To Decimal</option>
+            <option value="Binary To Octal">Binary To Octal</option>
+            <option value="Binary To Hexa">Binary To Hexadecimal</option>
+            <option value="Decimal To Binary">Decimal To Binary</option>
+            <option value="Decimal To Octal">Decimal To Octal</option>
+            <option value="Decimal To Hexa">Decimal To Hexadecimal</option>
+            <option value="Octal To Decimal">Octal To Decimal</option>
+            <option value="Octal To Binary">Octal To Binary</option>
+            <option value="Octal To Hexa">Octal To Hexadecimal</option>
+            <option value="Hexa To Decimal">Hexadecimal To Decimal</option>
+            <option value="Hexa To Binary">Hexadecimal To Binary</option>
+            <option value="Hexa To Octal">Hexadecimal To Octal</option>
+        </select>
+        <button id="btn"><span></span>Convert Number</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
